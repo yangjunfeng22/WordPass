@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SoftwareVersionModel" representedClassName="SoftwareVersionModel" syncable="YES">
+        <attribute name="dbVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="launched" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="WordBookCategoryModel" representedClassName="WordBookCategoryModel" syncable="YES">
+        <attribute name="cID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WordBookModel" representedClassName="WordBookModel" syncable="YES">
+        <attribute name="bID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="cID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WordBookTranslationModel" representedClassName="WordBookTranslationModel" syncable="YES">
+        <attribute name="bID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameTranslate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SoftwareVersionModel" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="WordBookCategoryModel" positionX="-63" positionY="9" width="128" height="88"/>
+        <element name="WordBookModel" positionX="-54" positionY="27" width="128" height="103"/>
+        <element name="WordBookTranslationModel" positionX="-36" positionY="54" width="128" height="103"/>
+    </elements>
+</model>
